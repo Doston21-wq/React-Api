@@ -61,9 +61,9 @@ const ToggleButton = styled.button`
   }
 `;
 
-const Home = () => <h1>🏠 Home Page</h1>;
-const About = () => <h1>ℹ️ About Page</h1>;
-const Contact = () => <h1>📞 Contact Page</h1>;
+const Home = () => <h1>Home page</h1>;
+const About = () => <h1></h1>;
+const Contact = () => <h1></h1>;
 
 const Navbar = ({ isDarkMode, toggleDarkMode }) => {
   const location = useLocation();
